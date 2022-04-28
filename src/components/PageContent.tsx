@@ -16,7 +16,7 @@ export const PageContent = () => {
         create team rituals, and watch productivity soar.
       </p>
       <button className={button}>Learn More</button>
-      <figure className={images__container}>
+      <figure className={`${images__container }`}>
         <img className={image} src="./images/client-databiz.svg" alt="databiz-image" />
         <img className={image} src="./images/client-audiophile.svg" alt="audiophile-image" />
         <img className={image} src="./images/client-meet.svg" alt="meet-image" />

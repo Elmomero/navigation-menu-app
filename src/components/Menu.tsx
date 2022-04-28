@@ -16,8 +16,9 @@ export const Menu:FC<Props> = ({isOpen}) => {
     features__items,
     feature__item,
     feature__img,
+    feature__img__open,
     feature__text,
-    submenu__closed
+    submenu__closed,
   } = styles;
   const [featuresClosed, setFeaturesClosed] = useState(true)
   const [companyClosed, setCompanyClosed] = useState(true)
@@ -26,7 +27,7 @@ export const Menu:FC<Props> = ({isOpen}) => {
       <ul className={menu}>
         <li className={menu__item} onClick={()=>setFeaturesClosed(state=>!state)}>
           <p className={list__text}>Features</p> 
-          <span className={arrow}></span>
+          <span className={`${arrow} ${!featuresClosed ? feature__img__open : ''}`}></span>
         </li>
         <ul className={`${features__items} ${featuresClosed ? submenu__closed : ''}`}>
           <li className={feature__item}>
@@ -48,7 +49,7 @@ export const Menu:FC<Props> = ({isOpen}) => {
         </ul>
         <li className={menu__item} onClick={()=> setCompanyClosed(state=>!state)}>
           <p className={list__text}>Company</p> 
-          <span className={arrow}></span>
+          <span className={`${arrow} ${!companyClosed ? feature__img__open : ''}`}></span>
         </li>
         <ul className={`${features__items} ${companyClosed ? submenu__closed : ''}`}>
             <li className={feature__item}>
