@@ -20,7 +20,7 @@ body {
   padding-top: 30px;
 }
 .filtered__background{
-  filter: brightness(0.5);
+  background-color: rgba(0,0,0,.75);
 }
 .logo-container {
   text-align: left;

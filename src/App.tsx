@@ -7,9 +7,9 @@ import { Menu } from "./components/Menu";
 function App() {
   const [menuClosed, setMenuClosed] = useState(true);
   return (
-    <div className='app'>
+    <div className={`app ${!menuClosed && 'filtered__background'}`}>
       <Logo />
-      <MenuButton menuToggle={setMenuClosed} />
+      <MenuButton menuToggle={setMenuClosed} buttonState={menuClosed}/>
       <Menu isOpen={menuClosed}/>
       <main className="main">
         <figure className="image__hero__container">

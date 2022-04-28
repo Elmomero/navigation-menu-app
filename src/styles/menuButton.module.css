@@ -12,4 +12,10 @@
     background-repeat: no-repeat;
     cursor: pointer;
     z-index: 100;
+    transition: all 300ms ease;
+
+}
+.menu__active{
+    background-image: url('./images/icon-close-menu.svg');
+    transition: all 300ms ease;
 }
