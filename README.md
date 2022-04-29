@@ -6,12 +6,10 @@ This is a solution to the [Job listings with filtering challenge on Frontend Men
 
 - [The challenge](#the-challenge)
 - [Screenshot](#screenshot)
-- [How to use](#how-to-use)
 - [Links](#links)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 - [Continued development](#continued-development)
-- [Useful resources](#useful-resources)
 
 ### The challenge
 
