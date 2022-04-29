@@ -39,9 +39,11 @@ export const Menu: FC<Props> = ({ isClosed }) => {
         <li className="" onClick={() => setFeaturesOpen((state) => !state)}>
           <div className={menu__item}>
             <p className={list__text}>Features</p>
-            <span
+            <img
               className={`${arrow} ${featuresOpen ? feature__img__open : ""}`}
-            ></span>
+              src="./images/icon-arrow-down.svg"
+              alt="arrow"
+            />
           </div>
           <ul
             className={`${features__items} ${
@@ -86,9 +88,11 @@ export const Menu: FC<Props> = ({ isClosed }) => {
         <li className="" onClick={() => setCompanyOpen((state) => !state)}>
           <div className={menu__item}>
             <p className={list__text}>Company</p>
-            <span
+            <img
               className={`${arrow} ${companyOpen ? feature__img__open : ""}`}
-            ></span>
+              src="./images/icon-arrow-down.svg"
+              alt="arrow"
+            />
           </div>
           <ul
             className={`${features__items} ${

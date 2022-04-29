@@ -7,12 +7,12 @@ interface Props {
 
 export const MenuButton: FC<Props> = ({ buttonState, menuToggle }) => {
   return (
-    <div
-      className={`${styles.menu__button} ${
-        !buttonState ? styles.menu__active : ""
-      }`}
+    <img
+      className={styles.menu__button}
       role="button"
+      src={`${buttonState ? './images/icon-menu.svg' : './images/icon-close-menu.svg'}`}
+      alt="menu-button"      
       onClick={() => menuToggle((state) => !state)}
-    ></div>
+    ></img>
   );
 };

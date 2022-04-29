@@ -1,21 +1,11 @@
-.menu{
-    color: var(--Almost-Black);
-}
 .menu__button{
-    background-image: url('./images/icon-menu.svg');
-    width: 45px;
-    height: 35px;
+    display: block;
+    width: 30px;
+    height: 20px;
     position: fixed;
-    top: 25px;
+    top: 35px;
     right: 20px;
-    background-position: center;
-    background-repeat: no-repeat;
     cursor: pointer;
     z-index: 100;
-    transition: all 300ms ease;
-
-}
-.menu__active{
-    background-image: url('./images/icon-close-menu.svg');
-    transition: all 300ms ease;
+    object-fit: scale-down;
 }

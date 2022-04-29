@@ -34,10 +34,11 @@
   display: block;
   width: 25px;
   height: 25px;
-  background-image: url("./images/icon-arrow-down.svg");
-  background-position: center;
-  background-repeat: no-repeat;
   align-self: center;
+  object-fit: scale-down;
+}
+.feature__img__open {
+  transform: rotate(180deg);
 }
 .register__options {
   margin-top: 15px;
@@ -89,9 +90,7 @@
   width: 20px;
   height: 20px;
 }
-.feature__img__open {
-  transform: rotate(180deg);
-}
+
 .feature__text {
   margin: 0;
 }
