@@ -1,11 +1,14 @@
 {
+  "homepage": "https://Elmomero.github.io/navigation-menu-app",
   "name": "navigation-menu-app",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy" : "npm run build",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.0.0",
