@@ -67,6 +67,7 @@
     margin-bottom: 25px;
   }
   .images__container {
+    width: 100%;
     justify-content: space-between;
   }
 }
