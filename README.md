@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Elmomero/filters-jobs-app](https://github.com/Elmomero/navigation-menu-app)
-- Live Site URL: [https://elmomero.github.io/filters-jobs-app/](https://elmomero.github.io/navigation-menu-app/)
+- Solution URL: [https://github.com/Elmomero/navigation-menu-app](https://github.com/Elmomero/navigation-menu-app)
+- Live Site URL: [https://elmomero.github.io/navigation-menu-app/](https://elmomero.github.io/navigation-menu-app/)
 
 ### Built with
 
